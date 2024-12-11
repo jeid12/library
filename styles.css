@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 8px;
+    
+}
+.main {
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+}
+.menu {
+    margin-left: 20px;
+    margin-right: 0px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.menu button {
+    padding: 5px 10px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    background: none;
+}
+.book {
+    
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.book button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Popup Styles */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.form{
+    display: none;
+    background: rgb(223, 195, 223);
+}
+.form-details{
+    display: flex;
+    flex-direction: column;
+}
+.form-details input{
+    margin: 5px;
+    padding: 5px;
+    background: none;
+    border: none;
+    
+}
+.form-details select{
+    margin: 5px;
+    padding: 5px;
+}
+.form-details label{
+    border-top: 2px solid black;
+}
+.form-details textarea{
+    margin: 5px;
+    padding: 5px;
+    background: none;
+}
+.form-details button{
+    margin-top: 10px;
+    
+    padding: 5px;
+    cursor: pointer;
+}
+.form-details button:hover{
+    background: #ccc;
+}
+#submit-button{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#cancel-button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+hr{
+    border: 1px solid black;
+    
+}
+.book p{
+    margin: 5px;
+}
